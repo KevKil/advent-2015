@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
-var data = fs.readFileSync('./QN2/qn2-puzzle-input.txt', 'utf-8');
+var data = fs.readFileSync('./src/QN2/qn2-puzzle-input.txt', 'utf-8');
 var lines = data.split('\n');
 console.log("Number of lines " + lines.length);
 var totalRibbon = 0;

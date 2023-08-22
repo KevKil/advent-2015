@@ -31,7 +31,7 @@ var fs = require("fs");
 //     return area
 // }
 // console.log("Final result: " + surfaceArea);
-var data = fs.readFileSync('./QN2/qn2-puzzle-input.txt', 'utf-8');
+var data = fs.readFileSync('./src/QN2/qn2-puzzle-input.txt', 'utf-8');
 var lines = data.split('\n');
 console.log("Number of lines " + lines.length);
 var surfaceArea = 0;

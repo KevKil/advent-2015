@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
-var fileName = './QN1/qn1-puzzle-input.txt';
+var fileName = './src/QN1/qn1-puzzle-input.txt';
 var fileContent = fs.readFileSync(fileName, 'utf8');
 // console.log(fileContent);
 var floor = 0;

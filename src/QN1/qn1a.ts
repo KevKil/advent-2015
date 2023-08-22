@@ -1,6 +1,6 @@
-import * as fs from 'fs';
+import * as fs from "fs";
 
-const fileName: string = './QN1/qn1-puzzle-input.txt';
+const fileName: string = './src/QN1/qn1-puzzle-input.txt';
 
 let fileContent = fs.readFileSync(fileName, 'utf8');
 // console.log(fileContent);

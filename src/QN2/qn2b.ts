@@ -1,6 +1,6 @@
 import * as fs from "fs";
 
-const data = fs.readFileSync('./QN2/qn2-puzzle-input.txt','utf-8')
+const data = fs.readFileSync('./src/QN2/qn2-puzzle-input.txt','utf-8')
 const lines = data.split('\n')
 console.log("Number of lines " + lines.length)
 let totalRibbon: number = 0;
