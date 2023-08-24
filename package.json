@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "@types/node": "^20.5.0"
+  },
+  "dependencies": {
+    "ts-md5": "^1.3.1"
   }
 }
